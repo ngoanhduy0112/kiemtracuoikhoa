@@ -517,91 +517,62 @@ hr {
 }
 
 /* ==== BRAND - BANNER ==== */
-.brand-banner {
+
+.baner {
     width: 1920px;
     height: 776px;
-    background: #010204;
-    display: flex;
-}
-
-.brand-banner-img {
-    width: 1270px;
-    height: 776px;
-    flex-shrink: 0;
-    /* object-fit: cover; */
-    transform: scaleX(-1);
-    background-image: url(http://127.0.0.1:5500/assets/images/d662685c1fd4744541198822233aacaa.jpg);
-    background-position: top;
-    background-size: cover;
-}
-
-.brand-banner-background {
-    width: 650px;
-    height: 776px;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
     position: relative;
-    padding-top: 224px;
-    /* padding-left: 50px; */
+    margin-top: 140px;
 }
 
-.brand-title {
-    width: 187px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: end; */
-    justify-content: space-between;
-}
-
-.brand-content {
-    width: 504px;
-    height: 187px;
-}
-
-
-.brand-logo {
-    width: 191px;
-    height: 81px;
-    flex-shrink: 0;
-    /* object-fit: cover; */
-    background-size: cover;
-    background-image: url(http://127.0.0.1:5500/assets/images/logozara.png);
-
-
-}
-
-.brand-logo-2 {
-    width: 732px;
+.baner-logo1 {
+    width: 676px;
     height: 309px;
     flex-shrink: 0;
-    background-size: cover;
-    opacity: 0.08;
-    background-image: url(http://127.0.0.1:5500/assets/images/logozara.png);
     position: absolute;
-    top: 90px;
-    right: -60px;
-
-
+    left: 1244px;
+    top: 51px;
+    background: cover no-repeat;
 }
 
-.brand-content p {
-    color: #FFF;
-    font-family: Roboto;
+
+.baner-logo2 {
+    width: 191px;
+    height: 81px;
+    position: absolute;
+    top: 233px;
+    right: 646px;
+}
+
+.baner-content {
+    width: 504px;
+    height: 187px;
+    font-family: 'Roboto', sans-serif;
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 48px;
     text-transform: capitalize;
+    color: #FFF;
+    position: absolute;
+    top: 369px;
+    right: 333px;
 }
 
-.brand-button {
-    width: 237px;
-    height: 72px;
-
+.baner button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    color: var(--Black, #1E2832);
+    font-feature-settings: 'clig' off, 'liga' off;
+    padding: 19px 26px;
+    position: absolute;
+    left: 1084px;
+    top: 611px;
 }
-
 
 /* == SLIDER-PRODUCT == */
 .slider-product {
@@ -610,7 +581,7 @@ hr {
     display: flex;
     flex-direction: column;
     margin: auto;
-    /* margin-top: 140px; */
+
 }
 
 .slider-product-title {
@@ -860,7 +831,6 @@ hr {
     align-items: center;
     gap: 70px;
     margin: auto;
-    /* margin-top: 140px; */
 }
 
 .instagram-title {
@@ -949,6 +919,7 @@ hr {
 
 .input-2 button {
     color: var(--Black, #1E2832);
+
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 16px;
     font-style: normal;
@@ -956,7 +927,7 @@ hr {
     text-transform: capitalize;
     font-family: Roboto;
     border: 0;
-    
+
 }
 
 
